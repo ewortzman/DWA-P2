@@ -1,0 +1,1 @@
+<img src="http://imgs.xkcd.com/comics/password_strength.png" alt="To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize." />
