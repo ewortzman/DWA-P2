@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>xkcd Password Generator</title>
 
@@ -30,7 +30,7 @@
           <form class="">
             <div class="row">
               <div class="col-md-12">
-                <legend>Password Generator</legend>
+                <fieldset><legend>Password Generator</legend></fieldset>
               </div>
             </div> <!-- row -->
             <div class="row">
@@ -77,7 +77,7 @@
         </div>
 
         <div class="tab-pane fade" id="comic"> <!-- Comic pane -->
-          <img src="http://imgs.xkcd.com/comics/password_strength.png" />
+          <img alt="" src="http://imgs.xkcd.com/comics/password_strength.png" />
         </div>
       </div>
     </div> <!-- container-fluid -->
