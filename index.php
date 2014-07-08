@@ -28,51 +28,48 @@
       <div class="tab-content">
         <div class="tab-pane fade in active" id="generator"> <!-- Generator pane -->
           <form class="">
-            <div class="row">
-              <div class="col-md-12">
-                <fieldset><legend>Password Generator</legend></fieldset>
+            <fieldset>
+              <legend>Password Generator</legend>
+              <div class="row">
+                <div class="col-md-12">
+                  <h2><input class="input-xlarge" id="password" value="" readonly></h2>
+                </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="col-md-2">
+                  <select class="form-control" id="wordCount">
+                    <option value="" disabled selected style='display:none;'>Word Count</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <select class="form-control" id="delimiter">
+                    <option value="" disabled selected style='display:none;'>Delimiter</option>
+                    <option value=".">.</option>
+                    <option value=",">,</option>
+                    <option value="-">-</option>
+                    <option value="_">_</option>
+                    <option value=" "> </option>
+                  </select>
+                </div>
+              </div> <!-- row -->
+              <br>
+              <div id="countAlert"></div>
+              <div id="delimiterAlert"></div>
+              <div class="row">
+                <div class="col-md-2">
+                  <button type="button" id="submit" class="btn btn-primary btn-lg">
+                    Submit <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                  </button>
+                </div>
               </div>
-            </div> <!-- row -->
-            <div class="row">
-              <div class="col-md-12">
-                <h2><input class="input-xlarge" id="password" value="" readonly></h2>
-              </div>
-            </div> <!-- row -->
-            <div class="row">
-              <div class="col-md-2">
-                <select class="form-control" id="wordCount">
-                  <option value="" disabled selected style='display:none;'>Word Count</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                </select>
-              </div>
-              <div class="col-md-2">
-                <select class="form-control" id="delimiter">
-                  <option value="" disabled selected style='display:none;'>Delimiter</option>
-                  <option value=".">.</option>
-                  <option value=",">,</option>
-                  <option value="-">-</option>
-                  <option value="_">_</option>
-                  <option value=" "> </option>
-                </select>
-              </div>
-            </div> <!-- row -->
-            <br>
-            <div id="countAlert"></div>
-            <div id="delimiterAlert"></div>
-            <div class="row">
-              <div class="col-md-2">
-                <button type="button" id="submit" class="btn btn-primary btn-lg">
-                  Submit <span class="glyphicon glyphicon-circle-arrow-right"></span>
-                </button>
-              </div>
-            </div>
-
+            </fieldset>
           </form>
         </div>
 
